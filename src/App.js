@@ -7,6 +7,7 @@ import HookUseEffect from "./components/HookUseEffect";
 import HookMouse from "./components/HookMouse";
 import MouseContainer from "./components/MouseContainer";
 import IntervalHookCounter from "./components/IntervalHookCounter";
+import DataFetching from "./components/DataFetching";
 
 const App = () => {
   return (
@@ -18,7 +19,8 @@ const App = () => {
       {/* <HookUseEffect /> */}
       {/* <HookMouse /> */}
       {/* <MouseContainer /> */}
-      <IntervalHookCounter />
+      {/* <IntervalHookCounter /> */}
+      <DataFetching />
     </div>
   );
 };
