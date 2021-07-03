@@ -4,6 +4,7 @@ import HookPrvState from "./components/HookPrvState";
 import ObjUseState from "./components/ObjUseState";
 import ArrayUseState from "./components/ArrayUseState";
 import HookUseEffect from "./components/HookUseEffect";
+import HookMouse from "./components/HookMouse";
 
 const App = () => {
   return (
@@ -12,7 +13,8 @@ const App = () => {
       {/* <HookPrvState /> */}
       {/* <ObjUseState /> */}
       {/* <ArrayUseState /> */}
-      <HookUseEffect />
+      {/* <HookUseEffect /> */}
+      <HookMouse />
     </div>
   );
 };
