@@ -3,6 +3,7 @@ import HookUseState from "./components/HookUseState";
 import HookPrvState from "./components/HookPrvState";
 import ObjUseState from "./components/ObjUseState";
 import ArrayUseState from "./components/ArrayUseState";
+import HookUseEffect from "./components/HookUseEffect";
 
 const App = () => {
   return (
@@ -10,7 +11,8 @@ const App = () => {
       {/* <HookUseState /> */}
       {/* <HookPrvState /> */}
       {/* <ObjUseState /> */}
-      <ArrayUseState />
+      {/* <ArrayUseState /> */}
+      <HookUseEffect />
     </div>
   );
 };

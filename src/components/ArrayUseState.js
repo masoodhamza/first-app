@@ -4,13 +4,15 @@ const ArrayUseState = () => {
   const [items, setItems] = useState([]);
 
   const addItem = () => {
-    setItems([
-      ...items,
-      {
-        id: items.length,
-        value: Math.floor(Math.random() * 10) + 1,
-      },
-    ]);
+    setItems((prevItems) => {
+      return [
+        ...prevItems,
+        {
+          id: items.length,
+          value: Math.floor(Math.random() * 10) + 1,
+        },
+      ];
+    });
   };
 
   return (
