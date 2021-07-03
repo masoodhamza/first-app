@@ -6,6 +6,7 @@ import ArrayUseState from "./components/ArrayUseState";
 import HookUseEffect from "./components/HookUseEffect";
 import HookMouse from "./components/HookMouse";
 import MouseContainer from "./components/MouseContainer";
+import IntervalHookCounter from "./components/IntervalHookCounter";
 
 const App = () => {
   return (
@@ -16,7 +17,8 @@ const App = () => {
       {/* <ArrayUseState /> */}
       {/* <HookUseEffect /> */}
       {/* <HookMouse /> */}
-      <MouseContainer />
+      {/* <MouseContainer /> */}
+      <IntervalHookCounter />
     </div>
   );
 };
