@@ -1,10 +1,10 @@
 import "./App.css";
-import HookUseState from "./components/HookUseState";
+import DataFetchingOne from "./components/DataFetchingOne";
 
 const App = () => {
   return (
     <div className="App">
-      <HookUseState />
+      <DataFetchingOne />
     </div>
   );
 };
