@@ -1,10 +1,10 @@
 import "./App.css";
-import HookUseState from "./components/HookUseState";
+import Parent from "./components/Parent";
 
 const App = () => {
   return (
     <div className="App">
-      <HookUseState />
+      <Parent />
     </div>
   );
 };
