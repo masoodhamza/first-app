@@ -1,10 +1,10 @@
 import "./App.css";
-import Parent from "./components/Parent";
+import Counter from "./components/Counter";
 
 const App = () => {
   return (
     <div className="App">
-      <Parent />
+      <Counter />
     </div>
   );
 };
