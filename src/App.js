@@ -1,10 +1,10 @@
 import "./App.css";
-import Counter from "./components/Counter";
+import FocusInput from "./components/FocusInput";
 
 const App = () => {
   return (
     <div className="App">
-      <Counter />
+      <FocusInput />
     </div>
   );
 };
